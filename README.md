@@ -1,11 +1,7 @@
-# Credit Risk Modeling (AmExpert 2021 CODELAB) — Fast, Reproducible Project
+# Credit Risk Modeling using Random Forest & XGBoost (AmExpert 2021 CODELAB)
 
-A clean, modular baseline for **credit-card default prediction** using the **AmExpert 2021 CODELAB** dataset.
-This repo focuses on **speed + correctness**: strong tree models, disciplined cross-validation backtesting, and standard credit-risk diagnostics.
-
+This repository implements a credit risk modeling pipeline for the AmExpert 2021 CODELAB dataset using Random Forest and XGBoost. The project follows a structured approach, covering exploratory data analysis, model training, cross-validated backtesting, and final scoring on an unseen test set. Emphasis is placed on evaluation metrics and diagnostics commonly used in credit risk modeling, such as ROC-AUC, PR-AUC, KS, calibration, and lift analysis
 ---
-
-## What’s included
 
 ### Modeling
 - **Random Forest** baseline (`--model rf`)
@@ -58,5 +54,25 @@ This repo focuses on **speed + correctness**: strong tree models, disciplined cr
 
 ---
 
-## Folder structure
+## Project structure
 
+crm_amexpert2019/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── sample_submission.csv
+├── models/
+├── reports/
+│   └── figures/
+├── src/
+│   └── credit_risk/
+│       ├── __init__.py
+│       ├── utils.py
+│       ├── preprocess.py
+│       ├── eda.py
+│       ├── models.py
+│       ├── evaluate.py
+│       ├── train.py
+│       └── predict.py
+├── requirements.txt
+└── README.md
