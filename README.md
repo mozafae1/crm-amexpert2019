@@ -1,6 +1,7 @@
 # Credit Risk Modeling using Random Forest & XGBoost (AmExpert 2021 CODELAB)
 
-This repository implements a credit risk modeling pipeline for the AmExpert 2021 CODELAB dataset using Random Forest and XGBoost. The project follows a structured approach, covering exploratory data analysis, model training, cross-validated backtesting, and final scoring on an unseen test set. Emphasis is placed on evaluation metrics and diagnostics commonly used in credit risk modeling, such as ROC-AUC, PR-AUC, KS, calibration, and lift analysis
+This repository implements a credit risk modeling pipeline for the AmExpert 2021 CODELAB dataset using Random Forest and XGBoost. The project follows a structured approach, covering exploratory data analysis, model training, cross-validated backtesting, and final scoring on an unseen test set. Model performance is evaluated using metrics and diagnostics that are standard in credit risk analysis, including ROC-AUC, PR-AUC, KS, calibration measures, and lift analysis.
+
 ---
 
 ### Modeling
