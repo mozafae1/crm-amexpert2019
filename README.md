@@ -55,7 +55,7 @@ This repository implements a credit risk modeling pipeline for the AmExpert 2021
 ---
 
 ## Project structure
-
+```text
 crm_amexpert2019/
 ├── data/
 │   ├── train.csv
